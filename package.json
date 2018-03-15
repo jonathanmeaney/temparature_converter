@@ -1,0 +1,25 @@
+{
+  "name": "temperature_converter",
+  "description": "A simple temperature converter app using Brunch.io",
+  "private": true,
+  "author": "Jonathan Meaney",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "react": "^15.4",
+    "react-dom": "^15.4"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.22",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}
